@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/icons8-javascript.svg">
+    <title>Introduction to JavaScript</title>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body class="bg-[#131417] text-white">
+    <header class="py-[12px] bg-[#222221] flex justify-center max-[500px]:py-[8px] font-[SourceSans] w-full absolute">
+        <nav class="w-[1880px] mx-[20px] m-auto flex items-center justify-between">
+            <ul class="flex gap-5 flex-1 navbar__nav max-[1300px]:hidden">
+                <li><a class="flex items-center gap-1.5 font-[500] text-[15px] hover:text-[#308D46]"
+                        href="#"><span>Courses</span> <i class="arrow-down"></i></a></li>
+                <li><a class="flex items-center gap-1.5 font-[500] text-[15px] hover:text-[#308D46]"
+                        href="#"><span>Tutorials</span> <i class="arrow-down"></i></a></li>
+                <li><a class="flex items-center gap-1.5 font-[500] text-[15px] hover:text-[#308D46]"
+                        href="#"><span>DSA</span> <i class="arrow-down"></i></a></li>
+                <li><a class="flex items-center gap-1.5 font-[500] text-[15px] hover:text-[#308D46]" href="#"><span>Data
+                            Science</span> <i class="arrow-down"></i></a></li>
+                <li><a class="flex items-center gap-1.5 font-[500] text-[15px] hover:text-[#308D46]" href="#"><span>Web
+                            Tech</span> <i class="arrow-down"></i></a></li>
+            </ul>
+            <div class="hidden max-[1300px]:flex flex-1/9">
+                <img class="max-w-[28px]" src="./images/icons8-menu.svg" alt="">
+            </div>
+            <div class="logo">
+                <img class="max-w-[38px]" src="./images/icons8-javascript.svg" alt="">
+            </div>
+            <div class="flex items-center gap-3.5">
+                <img class="w-[26px] hover:cursor-pointer" src="./images/icons8-search (2).svg" alt="">
+                <button
+                    class="w-[94px] h-[37px] text-[14px] rounded-[5px] bg-[#273239] hover:cursor-pointer max-[500px]:w-[80px]">Sign
+                    In</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="article px-[20px] py-[10px] container mx-auto text-[18px] max-[480px]:text-[16px] relative pt-[80px]">
+            <div class="font-[SourceSans] border-b border-[#202528] mt-[12px]">
+                <h1 class="text-[28px] font-[700] mb-[30px] ">Introduction to Javascript</h1>
+            </div>
+            <div class="my-[10px] font-[Nunito]">
+                <p>
+                    <u class="text-[#2F8D46]">JavaScript</u> is a versatile, <u class="text-[#2F8D46]">dynamically
+                        typed</u> programming language used for interactive web applications, supporting both
+                    client-side and server-side development, and integrating seamlessly with <u class="text-[#2F8D46]">
+                        HTML, CSS,</u> and a rich standard library.
+                </p>
+
+                <ul class="mb-[24px] mt-[10px] list-disc ml-[24px]">
+                    <li>JavaScript is a <u class="text-[#2F8D46]">single-threaded</u> language that executes one task at
+                        a time.</li>
+                    <li>It is an <u class="text-[#EC4E20]">Interpreted language</u> which means it executes the code
+                        line by line.</li>
+                    <li>The data type of the variable is decided at run-time in JavaScript that’s why it is called
+                        dynamically typed.</li>
+                </ul>
+
+                <h2 class="text-[24px] font-[700] mb-[4px]">“Hello, World!” Program in Browser Console</h2>
+
+                <p class="mb-[6px]">
+                    A “Hello, World!” program is the simplest way to get started with any programming language. Here’s
+                    how you can write one using JavaScript.
+                </p>
+
+                <img src="./images/1.png" alt="">
+
+                <p class="pb-[10px]"><strong>In this example</strong></p>
+
+                <ul class="mb-[24px]">
+                    <li class="ml-[24px] list-disc">
+                        The <u class="text-[#EC4E20]"><strong> script </strong>tag</u> is used to include JavaScript
+                        code inside an HTML document.
+                    </li>
+                    <li class="ml-[24px] list-disc">
+                        <p>
+                            <strong class="text-[#22A779]">console.log()</strong> prints messages to the browser’s
+                            developer console. Open the browser console to see the “Hello, World!” message.
+                        </p>
+                    </li>
+                </ul>
+
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            To learn more about comments follow the article – <a class="text-[#239A71] underline"
+                                href="#">JavaScript Hello World </a>
+                        </span>
+                    </p>
+                </blockquote>
+
+                <h2 class="text-[24px] font-[700] mb-[4px]">“Hello, World!” Program in Server Console</h2>
+
+                <p class="mb-[6px]">
+                    We can also print the “Hello World” program directly into the console terminal without embedded it
+                    into HTML. Create an index.js file and add the code to it.
+                </p>
+
+                <img src="./images/2.png" alt="">
+
+                <p class="pb-[10px]"><strong>In this example</strong></p>
+
+                <ul class="mb-[24px]">
+                    <li class="ml-[24px] list-disc">
+                        <strong>console.log():</strong> The console.log() method is used to print messages to the
+                        browser’s developer console. Open the console (usually with F12 or Ctrl + Shift + J) to see the
+                        message “Hello, World!” displayed.
+                    </li>
+                    <li class="ml-[24px] list-disc">
+                        <strong>Comments in the Code:</strong>
+                        <ul class="ml-[50px]">
+                            <li class="list-decimal">Multi-line Comment: The /* */ syntax is used to write a comment
+                                spanning multiple lines.</li>
+                            <li class="list-decimal">Single-line Comment: The // syntax is used for short, inline
+                                comments, like the one explaining the console.log function.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            To learn more about comments follow the article – <a class="text-[#239A71] underline"
+                                href="#">Comments in JavaScript</a>
+                        </span>
+                    </p>
+                </blockquote>
+
+                <h2 class="text-[24px] font-[700] mb-[4px]">Key Features of JavaScript </h2>
+                <ul class="mb-[24px]">
+                    <li class="list-disc ml-[24px]"><span>
+                            <b>Client-Side Scripting:</b> JavaScript runs on the user’s <a
+                                class="text-[#2F8D46] underline" href="#">browser</a>, so has a faster response time
+                            without needing to communicate with the <a class="text-[#2F8D46] underline"
+                                href="#">server</a>.
+                        </span></li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Versatile:</b> JavaScript can be used for a wide range of tasks, from simple calculations
+                            to complex server-side applications.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Event-Driven:</b> JavaScript can respond to user actions (clicks, keystrokes) in
+                            real-time.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Asynchronous:</b> JavaScript can handle tasks like <a class="text-[#2F8D46] underline"
+                                href="#">fetching data</a> from <a class="text-[#2F8D46] underline" href="">servers</a>
+                            without freezing the user interface.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Rich Ecosystem:</b>There are numerous <a class="text-[#EC4E20] underline"
+                                href="#">libraries and frameworks</a> built on JavaScript, such as <a
+                                class="text-[#2F8D46] underline" href="#">React</a>, <a class="text-[#2F8D46] underline"
+                                href="#">Angular</a>, and <a class="text-[#2F8D46] underline" href="#">Vue.js</a>, which
+                            make development faster and more efficient.
+                    </li>
+                </ul>
+
+                <h2 class="text-[24px] font-[700] mb-[4px]">Client Side and Server Side nature of JavaScript</h2>
+                <ul class="mb-[24px]">
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Client-side:</b> Involves controlling the browser and its DOM, handling user events like
+                            clicks and form inputs. Libraries such as AngularJS, ReactJS, and VueJS are commonly used.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Server-side:</b> Involves interacting with databases, manipulating files, and generating
+                            responses. With Node.js and frameworks like Express.js, JavaScript is also widely used on
+                            the server side.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Imperative Programming:</b> Focuses on how to perform tasks, controlling the flow of
+                            computation. It includes approaches like procedural and object-oriented programming, often
+                            using constructs like async/await to handle actions.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Declarative Programming:</b> Focuses on what should be done rather than how it’s done. It
+                            emphasizes describing the desired result, like with arrow functions, without detailing the
+                            steps to achieve it.
+                        </span>
+                    </li>
+                </ul>
+
+                <div class="mb-[24px] max-w-[667px] mx-auto">
+                    <img class="w-full" src="./images/3.jpg" alt="">
+                    <p class="text-[12px] italic text-[#666666] text-center mt-0.5">JavaScript Introduction</p>
+                </div>
+
+
+
+                <h2 class="text-[24px] font-[700] mb-[4px]">Applications of JavaScript </h2>
+                <ul class="mb-[24px]">
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <a href="#"><b class="underline text-[#239A71]">Web Development:</b></a>JavaScript adds
+                            interactivity and dynamic behavior to static websites, with popular frameworks like <a
+                                href="#"><b class="underline text-[#239A71]">AngularJS</b></a> enhancing development.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Web Applications:</b> JavaScript powers robust web applications, leveraging <b>APIs</b>,
+                            <b>React</b>, and <b>Electron</b> to create dynamic user experiences like Google Maps.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Server Applications:</b> <a class="text-[#239A71] underline" href="#"><b>Node.js</b></a>
+                            brings JavaScript to the server side, enabling powerful server applications and full-stack
+                            development.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Game Development:</b>JavaScript, combined with <a class="text-[#239A71] underline"
+                                href="#"><b>HTML5</b></a> and libraries like <b>Ease JS</b>, enables the creation of
+                            interactive games for the web.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Smartwatches: Pebble JS </b> allows JavaScript to run on smartwatches, supporting apps
+                            that require internet connectivity.
+                        </span>
+                    </li>
+                </ul>
+
+                <h2 class="text-[24px] font-[700] mb-[4px]">Limitations of JavaScript </h2>
+
+                <ul class="mb-[24px]">
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Security Risks:</b>JavaScript can be used for attacks like Cross-Site Scripting (XSS),
+                            where malicious scripts are injected into a website to steal data by exploiting elements
+                            like < img>, < object>, or script tags.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Performance:</b>JavaScript is slower than traditional languages for complex tasks, but
+                            for simple tasks in a browser, performance is usually not a major issue.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Complexity :</b>To write advanced JavaScript, programmers need to understand core
+                            programming concepts, objects, and both client- and server-side scripting, which can be
+                            challenging.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Weak Error Handling and Type Checking:</b> JavaScript is weakly typed, meaning variables
+                            don’t require explicit types. This can lead to issues as type checking is not strictly
+                            enforced.
+                        </span>
+                    </li>
+                </ul>
+
+                <h2 class="text-[24px] font-[700] mb-[4px]">Why JavaScript is known as a lightweight programming
+                    language ?</h2>
+                <p class="mb-[16px]">
+                    <b class="underline text-[#239A71]">JavaScript</b> is considered a lightweight language due to its
+                    low CPU usage, minimalist syntax, and ease of implementation. With no explicit data types and a
+                    syntax similar to <u class="text-[#1F8D68]">C++</u> and <u class="text-[#1F8D68]">Java</u>, it’s
+                    easy to learn and runs efficiently in browsers. Unlike heavier languages like Dart or <u
+                        class="text-[#1F8D68]">Java</u>, <u class="text-[#1F8D68]">JavaScript</u>, especially with <u
+                        class="text-[#1F8D68]">Node.js</u>, performs faster and uses fewer resources. While it has fewer
+                    built-in libraries, this makes it more flexible, though external libraries are often needed for
+                    advanced functionality. <u class="text-[#1F8D68]">JavaScript’s</u> efficiency and simplicity make it
+                    a top choice for web development.
+                </p>
+
+                <h2 class="text-[24px] font-[700] mb-[4px]">Is JavaScript Compiled or Interpreted or both ?</h2>
+                <p class="mb-[16px]">
+                    JavaScript is both compiled and interpreted. The V8 engine improves performance by first
+                    interpreting code and then compiling frequently used functions for speed. This makes JavaScript
+                    efficient for modern web apps. It’s mainly used for web development but also works in other
+                    environments. You can learn it through tutorials and examples.
+                </p>
+
+                <p class="mb-[16px]">
+                    <b>Just-In-Time (JIT)</b> compilation is a technique used by JavaScript engines (like V8) to improve
+                    performance. Here’s how it works
+                </p>
+
+                <ul class="mb-[24px]">
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Interpretation:</b> Initially, the code is interpreted line-by-line by the engine.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Hot Code Detection:</b>The engine identifies frequently executed code, such as
+                            often-called functions.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Compilation:</b>The “hot” code is compiled into optimized machine code for faster
+                            execution.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>Execution:</b>The compiled machine code is then executed directly, improving performance
+                            compared to repeated interpretation.
+                        </span>
+                    </li>
+                    <li class="list-disc ml-[24px]">
+                        <span>
+                            <b>JIT</b> compilation balances between interpretation (for quick startup) and compilation
+                            (for faster execution).
+                        </span>
+                    </li>
+                </ul>
+
+                <h2 class="text-[24px] font-[700] mb-[4px]">JavaScript Versions</h2>
+                <p class="mb-[16px]">
+                    Let’s take a look at the different versions of ECMAScript, their release years, and the key features
+                    they introduced
+                </p>
+
+                <table class="w-full bg-[#2A2A2C] overflow-x-auto block mb-[24px]">
+                    <thead class="border">
+                        <tr class="border">
+                            <th>Version</th>
+                            <th>Name</th>
+                            <th>Release Year</th>
+                            <th>Features</th>
+                        </tr>
+
+                        <tr>
+                            <th>ES1	</th>
+                            <th>ECMAScript 1</th>
+                            <th>1997</th>
+                            <th>Initial Release</th>
+                        </tr>
+
+                        <tr>
+                            <th>ES2	</th>
+                            <th>ECMAScript 2</th>
+                            <th>1998</th>
+                            <th>Minor Editorial Changes</th>
+                        </tr>
+
+                        <tr>
+                            <th>ES3	</th>
+                            <th>ECMAScript 3</th>
+                            <th>1999</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Regular Expression</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">try/catch</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Exception Handling</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">switch case</u> </a>and <a href="#"><u class="text-[#1F8D68]">do-while</u></a></li>
+                                </ul>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>ES4</th>
+                            <th>ECMAScript 4</th>
+                            <th></th>
+                            <th>Abandoned due to conflicts</th>
+                        </tr>
+
+                        <tr>
+                            <th>ES5	</th>
+                            <th>ECMAScript 5</th>
+                            <th>2009</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">JavaScript “strict mode”</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">JSON</u></a>support</li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">JS getters and setters</u></a></li>
+                                </ul>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th><u class="text-[#1F8D68]">ES6</u></th>
+                            <th><u class="text-[#1F8D68]">ECMAScript 2015</u></th>
+                            <th>2015</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">let</u></a> and <a href="#"><u class="text-[#1F8D68]">cost</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">class</u></a> declaration</li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">import and export</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">for..of loop</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Arrow functions</u></a></li>
+                                </ul>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>ES7	</th>
+                            <th>ECMAScript 2016</th>
+                            <th>2016</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Block scope for variable</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">async/await</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Array.includes function</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Exponentiation Operator</u></a></li>
+                                </ul>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>ES8	</th>
+                            <th>ECMAScript 2017</th>
+                            <th>2017</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Object.values</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Object.entries</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Object.getOwnPropertiesDescriptors</u></a></li>
+                                </ul>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>ES9	</th>
+                            <th>ECMAScript 2018</th>
+                            <th>2018</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">spread operator</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">rest parameters</u></a></li>
+                                </ul>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>ES10</th>
+                            <th>ECMAScript 2019</th>
+                            <th>2019</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Array.flat()</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Array.flatMap()</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Array.sort is now stable</u></a></li>
+                                </ul>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>ES11</th>
+                            <th>ECMAScript 2020</th>
+                            <th>2020</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">BigInt primitive type</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">nullish coalescing operator</u></a></li>
+                                </ul>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>ES12</th>
+                            <th>ECMAScript 2021</th>
+                            <th>2021</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">String.replaceAll() Method</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">Promise.any() Method</u></a></li>
+                                </ul>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>ES13</th>
+                            <th>ECMAScript 2022</th>
+                            <th>2022</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]">Top-level await</li>
+                                    <li class="text-start list-disc ml-[30px]">New class elements</li>
+                                    <li class="text-start list-disc ml-[30px]">Static block inside classes</li>  
+                                </ul>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>ES14</th>
+                            <th>ECMAScript 2023</th>
+                            <th>2023</th>
+                            <th>
+                                <p class="mb-[12px]">Added:</p>
+                                <ul>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">toSorted method</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]"><a href="#"><u class="text-[#1F8D68]">toReversed method</u></a></li>
+                                    <li class="text-start list-disc ml-[30px]">findLast, and findLastIndex methods on Array.prototype and TypedArray.prototypet</li>
+                                </ul>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <p><b>Note: </b>Older versions of browsers do not support ES6.</p>
+
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            To learn more about it follow the article – <a class="text-[#239A71] underline"
+                                href="#">JavaScript Versions</a>
+                        </span>
+                    </p>
+                </blockquote>
+
+                <h2 class="text-[24px] font-[700] mb-[14px]">Introduction to JavaScript – FAQs</h2>
+                <h3 class="text-[20px] font-[700] mb-[4px]">What is JavaScript?</h3>
+
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            JavaScript is a high-level, dynamic programming language used to make web pages interactive. It is a core technology of the World Wide Web, alongside HTML and CSS.
+                        </span>
+                    </p>
+                </blockquote>
+
+                <h3 class="text-[20px] font-[700] mb-[4px]">What is JavaScript used for ?</h3>
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            JavaScript is a versatile language used for web development, adding interactivity, dynamic content, and user-friendly features like sliders, forms, and animations. It’s also used in web apps, backend services (via Node.js), game development, and mobile apps.
+                        </span>
+                    </p>
+                </blockquote>
+
+                <h3 class="text-[20px] font-[700] mb-[4px]">What is the difference between JavaScript and Java?</h3>
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            JavaScript and Java are distinct languages with different purposes. Java is an object-oriented programming language for building standalone applications, while JavaScript is primarily used to enhance web pages with interactivity and dynamic content.
+                        </span>
+                    </p>
+                </blockquote>
+
+                <h3 class="text-[20px] font-[700] mb-[4px]">What is JavaScript DOM ?</h3>
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            The JavaScript DOM (Document Object Model) lets you interact with and manipulate HTML and CSS. It represents a web page as a tree of objects, enabling real-time updates, style changes, and event handling for dynamic, responsive pages.
+                        </span>
+                    </p>
+                </blockquote>
+
+                <h3 class="text-[20px] font-[700] mb-[4px]">How do you include JavaScript in an HTML document?</h3>
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            How do you include JavaScript in an HTML document?
+                            <ul class="italic">
+                                <li><span>Inline, by placing it directly within HTML elements.</span></li>
+                                <li><span>Internal, by placing it within a script tag in the HTML document..</span></li>
+                                <li><span>External, by linking to a separate .js file using the script src=”filename.js” script tag.</span></li>
+                            </ul>
+                        </span>
+                    </p>
+                </blockquote>
+
+                
+                <h3 class="text-[20px] font-[700] mb-[4px]">What are variables in JavaScript?</h3>
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            Variables in JavaScript store data values. They can be declared using var, let, or const.
+                        </span>
+                    </p>
+                </blockquote>
+                
+                <h3 class="text-[20px] font-[700] mb-[4px]">What is Hoisting in JavaScript?</h3>
+                <blockquote class="py-[10px] px-[24px] mb-[24px] mt-[10px] bg-[#2A2A2C] rounded-[14px]">
+                    <p class="mb-[16px]">
+                        <span class="italic">
+                            Hoisting in JavaScript refers to the behavior where variable and function declarations are moved to the top of their containing scope during compilation. However, only the declarations are hoisted, not the initializations, leading to potential issues with uninitialized variables.
+                        </span>
+                    </p>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
